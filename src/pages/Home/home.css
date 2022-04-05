@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.main{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset;
+    box-shadow: 5px 5px 10px black;
+}
+.container{
+    display: flex;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 70vw;
+    min-width: 300px;
+    height: 700px;
+    min-height: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px;
+    
+    
+}
+.container h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 5px 5px black;
+    font-size: calc(1.5vh + 1.5vw + 0.5em);
+    text-align: left;
+    margin: 20px;
+    color: white;
+}
+
+.container input{
+   width: 300px;
+   color: black;
+   font-weight: bold;
+   font-size: 1.5em;
+   height: 30px;
+   margin: 10px;
+   
+ 
+}
+.container button{
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+.container label{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.container button:hover{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+.content ul{
+    columns: 2;
+    gap: 12vh;
+    margin-top: 50px;
+    list-style: none;
+
+}
+.content ul li {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 5vh;
+
+}
+
+
+.content ul li strong.temp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+}
