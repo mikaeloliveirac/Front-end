@@ -37,7 +37,7 @@ export default function Home() {
                 setWeather(res.data)
 
             }).catch(() => {
-                toast.error("Erro")
+                toast.error("Campo cidade inválido!")
             })
         }
 
